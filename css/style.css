@@ -194,7 +194,7 @@ h2 {
 }
 
 .features-item-link::before {
-    content: "";
+    content: " ";
     display: block;
     position: absolute;
     left: 95px;
@@ -315,7 +315,7 @@ h4 {
 
 }
 .pagination::after{
-    content: "";
+    content: " ";
     display: block;
     position: absolute;
     left: 960px;
@@ -325,7 +325,7 @@ h4 {
     background: url(/img/arrow.png);
 }
 .pagination::before{
-    content: "";
+    content: " ";
     display: block;
     position: absolute;
     left: 900px;
