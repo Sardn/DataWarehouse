@@ -201,7 +201,7 @@ h2 {
     top: 5px;
     width: 23px;
     height: 15px;
-    background: url(/img/arrow.png);
+    background: url(../img/arrow.png);
 }
 
 .features-type-item {
@@ -322,7 +322,7 @@ h4 {
     top: 15px;
     width: 23px;
     height: 15px;
-    background: url(/img/arrow.png);
+    background: url(../img/arrow.png);
 }
 .pagination::before{
     content: " ";
@@ -332,7 +332,7 @@ h4 {
     top: 15px;
     width: 33px;
     height: 15px;
-    background: url(/img/left.png);
+    background: url(../img/left.png);
 }
 .pagination:hover {
     opacity: 0.7;
