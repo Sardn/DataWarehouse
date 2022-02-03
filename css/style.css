@@ -1,3 +1,6 @@
+/* *{
+    box-sizing: inherit;- для всех элементов бокс-сайзинг(либо бордер-бокс)
+} */
 body {
     min-width: 1200px;
     font-size: 18px;
@@ -222,6 +225,7 @@ h2 {
 }
 
 .slide1 {
+    position: relative;
     background-color: white;
     width: 650px;
     height: 330px;
@@ -230,6 +234,17 @@ h2 {
     box-shadow: 0 15px 10px #5c0783;
     border: #ab2be6 solid 1px;
 
+}
+.content-slide1::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, rgb(242, 226, 243) 0.75%, rgba(255, 255, 255, 0)100%);
+    /* background: linear-gradient(270deg, #fff 9.75%, rgba(255, 255, 255, 0)100%); */
+    border-radius: 20px;
+    top: 0;
+    left: 0;
 }
 
 .content-slide1 {
